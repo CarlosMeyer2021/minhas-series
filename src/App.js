@@ -16,15 +16,15 @@ const Generos = () => {
 
 function App() {
   return (
-    <Router>
-      <div>
+    <>
+      <Router>
         <Header />
         <Routes>
-          <Route path='/' exact component={Home} />
-          <Route path="/generos" component={Generos} />
+          <Route path='/' exact element={<Home />} />
+          <Route path="/generos" element={<Generos />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </>
   )
 }
 
