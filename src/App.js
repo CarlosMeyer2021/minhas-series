@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./Header"
 import {
   BrowserRouter as Router,
-  Route
+  Routes, Route
 }
   from 'react-router-dom'
 
@@ -19,8 +19,10 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Route path='/' exact element={Home} />
-        <Route path="/generos" element={Generos} />
+        <Routes>
+          <Route path='/' exact component={Home} />
+          <Route path="/generos" component={Generos} />
+        </Routes>
       </div>
     </Router>
   )
