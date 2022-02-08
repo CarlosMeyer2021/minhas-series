@@ -1,0 +1,27 @@
+{
+  "series": {
+    "1": {
+      "name": "La casa de papel",
+      "status": "WATCHED",
+      "genre_id": 1,
+      "comments": "",
+      "poster": "//image.tmdb.org/t/p/original/yVUAfbrP5HDJugXraB7KQS0yz6Z.jpg",
+      "background": "//image.tmdb.org/t/p/original/piuRhGiQBYWgW668eSNJ2ug5uAO.jpg"
+    }
+  },
+  "genres": {
+    "1": {
+      "name": "Ação"
+    },
+    "2": {
+      "name": "Comédia"
+    },
+    "1644034972834": {
+      "name": "bbhj"
+    },
+    "1644286046291": {
+      "name": "Meyer"
+    }
+  },
+  "count": 0
+}
