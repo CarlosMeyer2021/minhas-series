@@ -1,27 +1,31 @@
 import React, { useState, useEffect } from "react"
+import { useParams } from "react-router-dom"
 import axios from "axios"
 import { Navigate } from 'react-router-dom'
 
-const EditarGenero = (props) => {
+const EditarGenero = () => {
   const [name, setName] = useState('')
   const [success, setSuccess] = useState(false)
 
+  const params = useParams()
+  const id = params.id
+
   useEffect(() => {
     axios
-      .get('/api/genres/1')
+      .get('/api/genres/' + params.id)
       .then(res => {
         setName(res.data.name)
       })
-  }, [])
+  }, [params.id])
 
-  console.log(props)
+  console.log(params.id)
 
   const OnChange = evt => {
     setName(evt.target.value)
   }
 
   const save = () => {
-    axios.post('/api/genres', {
+    axios.put('/api/genres/' + params.id, {
       name
     })
       .then(res => {
