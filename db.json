@@ -1,12 +1,43 @@
 {
   "series": {
-    "1": {
-      "name": "La casa de papel",
-      "status": "WATCHED",
+    "1646176786401": {
+      "name": "La Casa de Papel",
+      "status": "PARA_ASSISTIR",
+      "genre_id": 2,
+      "poster": "//image.tmdb.org/t/p/original/qUmlmYWx3WndM01DHOTrmeiklVW.jpg",
+      "background": "//image.tmdb.org/t/p/original/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg"
+    },
+    "1646176835490": {
+      "name": "Supernatural",
+      "poster": "//image.tmdb.org/t/p/original/ovFzkkKknAo2SbM2DfOabxRvzmy.jpg",
+      "background": "//image.tmdb.org/t/p/original/nVRyd8hlg0ZLxBn9RaI7mUMQLnz.jpg"
+    },
+    "1646176855028": {
+      "name": "A Teoria do Big Ban",
+      "genre_id": 2,
+      "poster": "//image.tmdb.org/t/p/original/1oODZKc1dpQZvtZPaZVWR11dzEI.jpg",
+      "background": "//image.tmdb.org/t/p/original/x4DO7mY7usT8BwLiHTUsYT7EKbc.jpg"
+    },
+    "1646273173630": {
+      "name": "Todo Mundo Odeia o Chris",
+      "status": "PARA_ASSISTIR",
+      "genre_id": 2,
+      "poster": "//image.tmdb.org/t/p/original/nYfvhUtbqMGtd5iV9sj2fdEFN5p.jpg",
+      "background": "//image.tmdb.org/t/p/original/wnwraKTDgfci0xd8LdYuL7YAfQb.jpg"
+    },
+    "1646273315404": {
+      "name": "Smallville: As Aventuras do Superboy",
+      "status": "PARA_ASSISTIR",
       "genre_id": 1,
-      "comments": "",
-      "poster": "//image.tmdb.org/t/p/original/yVUAfbrP5HDJugXraB7KQS0yz6Z.jpg",
-      "background": "//image.tmdb.org/t/p/original/piuRhGiQBYWgW668eSNJ2ug5uAO.jpg"
+      "poster": "//image.tmdb.org/t/p/original/oVXXF5TqtHXOmJjf7xdO1upq7WE.jpg",
+      "background": "//image.tmdb.org/t/p/original/gailQ3y8vwSc2uQSIX7Og3wyfca.jpg"
+    },
+    "1646273471377": {
+      "name": "Dois Homens e Meio",
+      "status": "ASSISTIDO",
+      "genre_id": 2,
+      "poster": "//image.tmdb.org/t/p/original/4OiyDEVDyqnfmuJN0QasqW4eo4a.jpg",
+      "background": "//image.tmdb.org/t/p/original/q79GW419UwQPJuQ3Gxvxu56QY7R.jpg"
     }
   },
   "genres": {

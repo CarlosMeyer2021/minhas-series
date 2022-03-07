@@ -18,7 +18,7 @@ const EditarGenero = () => {
       })
   }, [params.id])
 
-  console.log(params.id)
+  //console.log(params.id)
 
   const OnChange = evt => {
     setName(evt.target.value)
